@@ -1,0 +1,24 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    // grid-template-rows: auto 1fr auto;
+    // min-height: 100vh; move somewhere else
+    // grid-row-gap: 80px;
+}
+
+.main-layout>*:not(.full) {
+    grid-column: 2;
+}
+
+.main-layout>.full {
+    grid-column: 1 / -1;
+}
+
+/* CARD LAYOUT */
+// .main-layout &.app
+
+
+
+.card-layout {
+    margin-bottom: 130px;
+}

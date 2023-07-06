@@ -1,0 +1,32 @@
+
+
+.newsletter {
+    background-color: $headerClr;
+    color: $darkBrandClr;
+    display: flex;
+    justify-content: center;
+    padding-block: 100px;
+
+    .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 100px;
+        max-width: rem(917px);
+        
+
+
+        h2{
+            font-size: rem(48px);
+        }
+
+        a{
+            // this is the nav link
+            font-size: rem(18px);
+            border-radius: 50px;
+            font-weight: 600;
+            border: 2px solid $darkBrandClr;
+            padding: 0.25rem 1rem;
+        }
+    }
+}

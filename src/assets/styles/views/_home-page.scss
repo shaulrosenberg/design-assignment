@@ -1,0 +1,46 @@
+.home-page {
+
+    .hero-find {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: $brandClr;
+        // need to change this to fit layout
+        padding: 100px;
+
+        .find-header {
+            font-size: rem(100px);
+            font-weight: 700;
+            color: #fff;
+            max-width: 635px;
+            line-height: 1;
+            span {
+                color: $headerClr;
+            }
+        }
+
+        .find-content {
+            font-size: rem(18px);
+            color: #fff;
+            font-weight: 600;
+            max-width: 445px;
+            
+        }
+    }
+
+    .hero-build {
+        display: flex;
+        justify-content: space-between;
+        background-color: $darkBrandClr;
+        // need ot change this for better layout
+        padding: 100px;
+
+        >p{
+            font-size: rem(48px);
+            color: #fff;
+            max-width: 450px;
+        }
+    }
+
+
+}

@@ -1,0 +1,47 @@
+.app-header {
+    background-color: $brandClr;
+    padding-block: 1rem;
+  
+    .app-header-container {
+      display: flex;
+      justify-content: space-between;
+  
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        color: #fff;
+        font-weight: 600;
+  
+        .nav-link {
+          &:hover {
+            color: $headerClr;
+          }
+        }
+  
+        .logo {
+          font-size: rem(40px);
+          line-height: 1; 
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  
+    .nav-link-right {
+      color: #fff;
+      font-size: rem(18px);
+      border-radius: 50px;
+      font-weight: 600;
+      border: 2px solid #fff;
+      padding: 0.25rem 1rem;
+  
+      &:hover {
+        color: $brandClr;
+        background-color: #fff;
+      }
+    }
+  }
+  
