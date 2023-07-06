@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5760409e.css",
+    "main.js": "/static/js/main.5df8f32c.js",
+    "static/media/Livvic-Regular.ttf": "/static/media/Livvic-Regular.9994035d65e433690b4a.ttf",
+    "static/media/avatar-kady.jpg": "/static/media/avatar-kady.78fc482c1b331d912ca1.jpg",
+    "static/media/avatar-arthur.jpg": "/static/media/avatar-arthur.098c2e26b1c3fa071061.jpg",
+    "static/media/avatar-aiysha.jpg": "/static/media/avatar-aiysha.e119a0c1a5a4d6a6d0bb.jpg",
+    "static/media/icon-cog.svg": "/static/media/icon-cog.c5d2403fc5d7754badaf2da8c88d8b35.svg",
+    "static/media/icon-chart.svg": "/static/media/icon-chart.8de3d4d2ce95686ba9409a82599a8de1.svg",
+    "static/media/icon-brand-recognition.svg": "/static/media/icon-brand-recognition.c349d3b69f7442e5ac3552e4138e72e7.svg",
+    "index.html": "/index.html",
+    "main.5760409e.css.map": "/static/css/main.5760409e.css.map",
+    "main.5df8f32c.js.map": "/static/js/main.5df8f32c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5760409e.css",
+    "static/js/main.5df8f32c.js"
+  ]
+}
